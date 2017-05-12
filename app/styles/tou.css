@@ -1,0 +1,116 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 2000px;
+}
+#denglu {
+  width: 100%;
+}
+#sousuo {
+  position: fixed;
+}
+#head {
+  position: fixed;
+  height: 40px;
+  width: 100%;
+  background: #985f0d;
+  z-index: 99;
+}
+form input {
+  width: 100%;
+  height: 30px;
+  border-radius: 15px;
+  margin-top: 5px;
+  padding-left: 30px;
+}
+input,
+textarea {
+  /*清除输入框边框*/
+  border: none;
+  /*禁止收缩*/
+  resize: none;
+  /*清除默认选中框效果*/
+  outline: none;
+  /*清除浏览器默认的样式*/
+  -webkit-appearance: none;
+}
+form {
+  width: 100%;
+  height: 40px;
+  padding-left: 75px;
+  padding-right: 55px;
+  position: relative;
+}
+form img {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 10px;
+  left: 85px;
+}
+#head a {
+  position: absolute;
+  top: 12px;
+  right: 15px;
+}
+#head a p {
+  color: #ffffff;
+}
+#logo {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  float: left;
+  top: 5px;
+  left: 30px;
+}
+#qq {
+  width: 100%;
+}
+.daohang {
+  position: relative;
+  top: 1%;
+  right: 2%;
+}
+.daohang ul li {
+  width: 23%;
+  position: relative;
+  list-style: none;
+  display: inline-block;
+}
+.daohang ul li img {
+  width: 80%;
+  height: 80%;
+}
+.daohang ul li img ul {
+  position: relative;
+  list-style: block;
+}
+.daohang ul li img ul p {
+  text-align: center;
+  position: relative;
+  left: 5%;
+  top: 5px;
+  font-size: 14%;
+}
+#gouwuche {
+  position: relative;
+  left: 15%;
+}
+#chongzhi {
+  position: relative;
+  left: 20%;
+}
+#miaosha {
+  font-size: 150%;
+  position: relative;
+  left: 5%;
+  color: #ff0005;
+}
+.time {
+  position: relative;
+  top: 1%;
+}
+.time span {
+  font-size: 100%;
+}

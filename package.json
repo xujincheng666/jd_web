@@ -1,0 +1,15 @@
+{
+  "name": "xjc",
+  "version": "1.0.0",
+  "description": "\"project_demo\"",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp-load-plugins": "^1.5.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
