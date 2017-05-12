@@ -97,29 +97,19 @@ form img {
   color: black;
   font-size: 15px;
 }
-#gouwuche {
+#daojishi {
+  clear: both;
   position: relative;
-  left: 15%;
+  top: 1%;
 }
-#chongzhi {
+#daojishi #miaosha {
+  left: 20px;
+  font-size: 16px;
   position: relative;
-  left: 20%;
-}
-#miaosha {
-  font-size: 150%;
-  position: relative;
-  left: 5%;
   color: #ff0005;
 }
 #daojishi span {
   font-size: 16px;
-}
-.time {
-  position: relative;
-  top: 1%;
-}
-.time span {
-  font-size: 20%;
 }
 #shangpin {
   width: 100%;
@@ -141,6 +131,30 @@ form img {
   text-align: center;
 }
 #shangpin ul li a p {
+  position: relative;
+  left: -2%;
+  font-size: 16px;
+}
+#shangpin2 {
+  width: 100%;
+  position: relative;
+  top: 60px;
+}
+#shangpin2 ul {
+  margin-left: -5%;
+  list-style: none;
+}
+#shangpin2 ul li {
+  width: 33%;
+  float: left;
+}
+#shangpin2 ul li a {
+  position: relative;
+  display: block;
+  color: red;
+  text-align: center;
+}
+#shangpin2 ul li a p {
   position: relative;
   left: -2%;
   font-size: 16px;

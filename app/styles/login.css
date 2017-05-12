@@ -110,10 +110,9 @@ body {
   height: 1px;
 }
 #tubiao img {
-  margin-right: 30px;
+  margin: 2%;
   position: relative;
   top: 30px;
-  left: 35%;
   width: 30px;
   height: 30px;
 }
