@@ -1,0 +1,52 @@
+* {
+  margin: 0 ;
+  padding: 0;
+}
+body {
+  height: 2000px;
+  background: rgba(207, 199, 143, 0.24);
+}
+#head {
+  z-index: 1;
+  height: 40px;
+  width: 100%;
+  background: white;
+  text-align: center;
+  border-bottom: 1px solid rgba(11, 5, 5, 0.2);
+  font-size: 16px;
+  line-height: 40px;
+}
+#head span {
+  float: left;
+}
+.form-group {
+  padding-top: 20px ;
+}
+.form-group input {
+  position: absolute;
+  left: 10%;
+  width: 80%;
+  border-radius: 5px;
+}
+.form-group #psw {
+  top: 20px;
+  position: relative;
+}
+.form-group #yanzheng {
+  top: 5px;
+  position: relative;
+}
+#denglu {
+  font-size: 14px;
+  color: rgba(8, 4, 4, 0.38);
+  text-align: center;
+  top: 20px;
+  left: 10%;
+  position: relative;
+  border-radius: 5px;
+  height: 40px;
+  line-height: 40px;
+  width: 80%;
+  background: rgba(123, 115, 76, 0.24);
+  cursor: pointer;
+}
