@@ -111,6 +111,9 @@ form img {
   left: 5%;
   color: #ff0005;
 }
+#daojishi span {
+  font-size: 16px;
+}
 .time {
   position: relative;
   top: 1%;
@@ -119,6 +122,7 @@ form img {
   font-size: 20%;
 }
 #shangpin {
+  width: 100%;
   position: relative;
   top: 60px;
 }
@@ -127,10 +131,17 @@ form img {
   list-style: none;
 }
 #shangpin ul li {
-  padding: 3%;
+  width: 33%;
   float: left;
 }
 #shangpin ul li a {
+  position: relative;
+  display: block;
   color: red;
   text-align: center;
+}
+#shangpin ul li a p {
+  position: relative;
+  left: -2%;
+  font-size: 16px;
 }

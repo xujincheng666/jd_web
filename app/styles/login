@@ -3,8 +3,7 @@
   padding: 0;
 }
 body{
-   height: 2000px;
-  background: rgba(207, 199, 143, 0.24);
+  background: rgba(148, 140, 93, 0.24);
 };
 #head{
   z-index: 1;
@@ -17,6 +16,9 @@ body{
   line-height: 40px;
   span{
     float: left;
+    a{
+      color: rgba(75, 67, 37, 0.24);
+    }
   }
 };
 .form-group{
@@ -48,6 +50,77 @@ body{
   height:40px;
   line-height:40px;
   width: 80%;
-  background: rgba(123, 115, 76, 0.24);
+  background: rgba(212, 204, 141, 0.24);
   cursor: pointer;
   }
+#yijianzhuce{
+  font-size: 14px;
+  color: rgba(8, 4, 4, 0.2);
+  text-align:center;
+  top: 40px;
+  left: 10%;
+  position: relative;
+  border-radius: 5px;
+  height:40px;
+  line-height:40px;
+  width: 80%;
+  background:white;
+  cursor: pointer;
+  border: 1px solid red;
+  color: #fd0800;
+}
+#miandenglu{
+  top: -10px;
+  position: relative;
+  left: 8%;
+  #xuanxiang{
+    position: relative;
+    top: -2px;
+    width: 30px;
+    height:30px;
+  }
+};
+#wangjimima{
+  position: relative;
+  left: 9%;
+  top: 10px;
+  width: 80%;
+  #suo {
+    position: relative;
+    top: -2px;
+    width: 20px;
+    height:20px;
+    margin-right: 8px;
+  }
+  span{
+    a{
+      color: black;
+      text-decoration: none;
+    }
+  }
+};
+
+#fangshi{
+  text-align: center;
+p{
+position: relative;
+  top: 30px;
+}
+  img{
+    position: relative;
+    top: 20px;
+    width: 80%;
+    height: 1px;
+  }
+};
+#tubiao{
+  img{
+    margin-right:30px;
+    position: relative;
+    top: 30px;
+    left: 35%;
+    width: 30px;
+    height: 30px;
+  }
+}
+

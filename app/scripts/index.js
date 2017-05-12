@@ -10,10 +10,10 @@ function timeDown(){
         var hour=Math.floor(limit_time/60/60%24);
         var minutes=Math.floor(limit_time/60%60);
         var  seconds=Math.floor(limit_time%60);
-        $("#t_day").html(day+"天"); /*写到页面中*/
-        $("#t_hour").html(hour+"时");
-        $("#t_minute").html(minutes+"分");
-        $("#t_second").html(seconds+"秒");
+        $("#t_day").html(day); /*写到页面中*/
+        $("#t_hour").html(hour);
+        $("#t_minute").html(minutes);
+        $("#t_second").html(seconds);
         if(limit_time==10){
             alert("提醒，还有10秒结束");
         }
