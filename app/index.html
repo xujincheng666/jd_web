@@ -6,7 +6,7 @@
     <script src="scripts/index.js"></script>
     <script type="text/javascript" src="../bower_components/jquery/jquery.js"></script>
     <script type="text/javascript" src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="styles/tou.css">
+    <link rel="stylesheet" type="text/css" href="styles/myless.css">
     <link rel="stylesheet" type="text/css" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
     <meta name="viewport" content="initial-scale=1,maximum-scale=1, minimum-scale=1">
 </head>
@@ -60,14 +60,23 @@
 <div id="timecon"></div>
 <div class="time">
     <div id="daojishi">
-    <b id="miaosha">秒杀</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <b id="miaosha">秒杀</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <span>距离本场结束 </span>
-    <span id="t_day"></span>
-    <span id="t_hour">00时</span>
-    <span id="t_minute">00分</span>
-    <span id="t_second">00秒</span>
+    <span id="t_hour"   style="border: 1px solid #ff0005;width: 150%;height: 150%">00时</span>
+    <span id="t_minute" style="border: 1px solid #ff0005;width: 150%;height: 150%">00分</span>
+    <span id="t_second" style="border: 1px solid #ff0005;width: 150%;height: 150% ">00秒</span>
+        <div style="right: 5px;position: absolute">
+        <span style="color: #ff0005;;text-align: center">查看更多</span>
+        <span><img  style="width: 10px;height: 10px" src="img/youjiantou.png"></span>
+        </div>
     </div>
 </div>
-
+<div id="shangpin">
+<ul >
+    <li><img src="img/nv-fy.jpg">￥20</li>
+    <li><img src="img/nv-fy.jpg">￥20</li>
+    <li><img src="img/nv-fy.jpg">￥20</li>
+</ul>
+</div>
 </body>
 </html>

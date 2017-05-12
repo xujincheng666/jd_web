@@ -87,11 +87,18 @@ form img {
   list-style: block;
 }
 .daohang ul li img ul p {
-  text-align: center;
-  position: relative;
+  position: absolute;
   left: 5%;
   top: 5px;
-  font-size: 14%;
+  font-size: 12px;
+  text-align: center;
+}
+.daohang ul li img ul p a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  position: absolute;
 }
 #gouwuche {
   position: relative;
@@ -112,5 +119,21 @@ form img {
   top: 1%;
 }
 .time span {
-  font-size: 100%;
+  font-size: 20%;
+}
+#shangpin {
+  position: relative;
+  left: -20px;
+  padding-top: 60px ;
+}
+#shangpin ul {
+  list-style: none;
+}
+#shangpin li {
+  display: inline;
+}
+#shangpin img {
+  text-align: center;
+  width: 32%;
+  height: 32%;
 }
