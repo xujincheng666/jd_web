@@ -1,17 +1,18 @@
 /*全局设置*/
 *,
 ::before,
-::after {
+::after{
   margin: 0;
   padding: 0;
   -webkit-tap-highlight-color: transparent;
   -webkit-box-sizing: border-box;
 }
-[class^="icon"] {
+
+[class^="icon"]{
   background: url("../img/sprites.png") no-repeat;
   background-size: 200px 200px;
 }
-.toubu {
+.toubu{
   height: 45px;
   width: 100%;
   background: url("../img/header-bg.png") repeat-x;
@@ -19,29 +20,29 @@
   border-bottom: 1px solid #e0e0e0;
   z-index: 1000;
 }
-a {
+a{
   text-decoration: none;
   color: #000000;
 }
-ul {
+ul{
   list-style: none;
 }
 /*头部*/
-.toubu .icon_back {
-  width: 18px;
+.toubu .icon_back{
+  width:18px;
   height: 19px;
   position: absolute;
-  top: 0;
+  top:0;
   left: 0;
   background-position: -20px 0;
   margin: 14px 10px;
 }
-.toubu form {
+.toubu form{
   width: 100%;
   height: 44px;
-  padding: 0 35px;
+  padding:0 35px;
 }
-.toubu form input {
+.toubu form input{
   width: 100%;
   height: 32px;
   border: 1px solid #c7d1cb;
@@ -49,81 +50,79 @@ ul {
   position: relative;
   top: 7px;
 }
-.toubu .icon_menu {
-  width: 18px;
+.toubu .icon_menu{
+  width:18px;
   height: 19px;
   position: absolute;
-  top: 0;
+  top:0;
   right: 0;
   background-position: -60px 0;
   margin: 14px 10px;
 }
 /*左边*/
-.fenlei {
+.fenlei{
   width: 100%;
   height: 100%;
   position: relative;
   top: 0px;
-}
-.fenlei .left {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-.fenlei .left ul li {
-  height: 60px;
-  width: 90px;
-  background: #FFFFF0;
-  font-size: 16px;
-}
-.fenlei .left ul li a {
-  height: 60px;
-  line-height: 60px;
-  text-align: center;
-  display: block;
-  border: 1px solid #c7d1cb;
-}
-.fenlei .sb:hover a {
-  background-color: red;
-}
+  .left{
+    position: absolute;
+    top:0;
+    left: 0;
+    ul li{
+      height: 60px;
+      width: 90px;
+      background:#FFFFF0;
+      font-size: 16px;
+      a{
+        height: 60px;
+        line-height: 60px;
+        text-align: center;
+        display: block;
+        border: 1px solid #c7d1cb;
+      }
+    }
+  }
+  .sb:hover a{
+    background-color: red;
+  }}
 /*右边*/
-.right {
+.right{
   width: 100%;
   height: 100%;
   padding-left: 90px;
   position: absolute;
-  top: 36px;
-  right: 0;
-}
-.right .right1 {
-  width: 100%;
-  padding: 10px 12px;
-}
-.right .right1 img {
-  width: 100%;
-  height: 100%;
+  top:36px;
+  right:0;
+  .right1{
+    width: 100%;
+    padding: 10px 12px;
+    img{
+      width: 100%;
+      height: 100%;
+    }}
 }
 /*分类*/
-.remenfenlei {
+.remenfenlei{
   width: 100%;
   height: 100%;
   right: 0;
   padding-left: 10px;
   top: 56px;
+  h3{
+    font-size: 16px;
+  }
+  ul li {
+    text-align: center;
+    width: 33.3%;
+    float: left;
+    img{
+      width: 90%;
+      height: 90%;
+    } p{
+        line-height: 60px;
+        font-size: 16px;
+      }
+  }
 }
-.remenfenlei h3 {
-  font-size: 16px;
-}
-.remenfenlei ul li {
-  text-align: center;
-  width: 33.3%;
-  float: left;
-}
-.remenfenlei ul li img {
-  width: 90%;
-  height: 90%;
-}
-.remenfenlei ul li p {
-  line-height: 60px;
-  font-size: 16px;
-}
+
