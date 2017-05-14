@@ -1,0 +1,29 @@
+#foot{
+  width: 100%;
+
+  position: fixed;
+  bottom: 0;
+  height: 50px;
+  border-top: 1px solid rgb(240, 240, 240);
+  background-color: rgb(251, 251, 251);
+  ul{
+    position: relative;
+    left: -20px;
+    width: 100%;
+    text-align: center;
+    li{
+      width: 25%;
+      float: left;
+      list-style: none;
+      a{color: #a6a6a6;
+        p{
+          font-size: 10px;
+        }
+        img{
+          width: 30px;
+          height: 30px
+        }
+      }
+    }
+  }
+};

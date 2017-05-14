@@ -13,7 +13,7 @@ body {
   position: fixed;
   height: 40px;
   width: 100%;
-  background: #985f0d;
+  background: #2cf2bd;
   z-index: 99;
 }
 form input {
@@ -158,4 +158,34 @@ form img {
   position: relative;
   left: -2%;
   font-size: 16px;
+}
+#foot {
+  z-index: 999;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  height: 50px;
+  border-top: 1px solid #f0f0f0;
+  background-color: #fbfbfb;
+}
+#foot ul {
+  position: relative;
+  left: -20px;
+  width: 100%;
+  text-align: center;
+}
+#foot ul li {
+  width: 25%;
+  float: left;
+  list-style: none;
+}
+#foot ul li a {
+  color: #a6a6a6;
+}
+#foot ul li a p {
+  font-size: 10px;
+}
+#foot ul li a img {
+  width: 30px;
+  height: 30px;
 }

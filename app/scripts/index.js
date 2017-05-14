@@ -1,4 +1,4 @@
-var limit_time;
+﻿var limit_time;
 if(window.name==""){//查看是否已有记录的时间
     limit_time=6000;//设置结束时间，单位秒
 }else{
